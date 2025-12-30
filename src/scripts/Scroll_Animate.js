@@ -69,25 +69,31 @@ function hand_animate() {
     document.getElementById("handImg").src = path;
 
     const door_links = document.getElementById("door_links");
-    const door1 = document.getElementById("door1");
-    const door3 = document.getElementById("door3");
+    const link1 = document.getElementById("link1");
+    const link3 = document.getElementById("link3");
     if (frame>6) {
         door_links.style.opacity = (frame-6)/(18-6);
         door_links.style.top = (-20*(frame-6)/(18-6))+25+"%";
 
-        door1.style.transform = "translate("+((-80*(frame-6)/(18-6))+40)+"%, 15%)";
-        door3.style.transform = "translate("+((80*(frame-6)/(18-6))-120)+"%, 15%)";
+        link1.style.transform = "translate("+((-80*(frame-6)/(18-6))+40)+"%, 15%)";
+        link3.style.transform = "translate("+((80*(frame-6)/(18-6))-120)+"%, 15%)";
     } else {
         door_links.style.opacity = 0;
     };
 
-    
+    let titles = document.getElementsByClassName("link_title");
     if (frame == 18) 
     {
         enable_door_anim();
+        for (let i=0; i<titles.length; i++) {
+            titles[i].style.visibility = "visible";
+        }
     } else 
     {
         disable_door_anim();
+        for (let i=0; i<titles.length; i++) {
+            titles[i].style.visibility = "hidden";
+        }
     }
 }
 hand_animate();

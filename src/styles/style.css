@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Pixel_Title;
+  src: url("C:/Users/Oliver/Documents/Personal Website/src/fonts/minecart-lcd/Minecart LCD.ttf");
+}
+
 #hand_animation {
     position: fixed;
     display: flex;
@@ -15,6 +20,14 @@
         height: 20%;
         width: 100%;
     }
+
+            .link_title {
+                color: rgb(218, 218, 218);
+                font-family: Pixel_Title;
+                font-size: 32px;
+                text-align: right;
+                margin: -20px;
+            }
 
 .pixImg {
     /* Prevent anti-alaising for intentionally pixelated images */
