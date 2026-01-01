@@ -1,0 +1,40 @@
+{
+    "projects":[
+        {
+            "Image_path":"../images/Default_Jake.jpg", "Title":"Title", "Date":"Date 2026",
+            "Bio":"This project is a project and I built this project, woooo so much fun."
+        },
+        {
+            "Image_path":"../images/Default_Jake.jpg", "Title":"Title", "Date":"Date 2026",
+            "Bio":"This project is a project and I built this project, woooo so much fun."
+        },
+        {
+            "Image_path":"../images/Default_Jake.jpg", "Title":"Title", "Date":"Date 2026",
+            "Bio":"This project is a project and I built this project, woooo so much fun."
+        },
+        {
+            "Image_path":"../images/Default_Jake.jpg", "Title":"Title", "Date":"Date 2026",
+            "Bio":"This project is a project and I built this project, woooo so much fun."
+        },
+        {
+            "Image_path":"../images/Default_Jake.jpg", "Title":"Title", "Date":"Date 2026",
+            "Bio":"This project is a project and I built this project, woooo so much fun."
+        },
+        {
+            "Image_path":"../images/Default_Jake.jpg", "Title":"Title", "Date":"Date 2026",
+            "Bio":"This project is a project and I built this project, woooo so much fun."
+        },
+        {
+            "Image_path":"../images/Default_Jake.jpg", "Title":"Title", "Date":"Date 2026",
+            "Bio":"This project is a project and I built this project, woooo so much fun."
+        },
+        {
+            "Image_path":"../images/Default_Jake.jpg", "Title":"Title", "Date":"Date 2026",
+            "Bio":"This project is a project and I built this project, woooo so much fun."
+        },
+        {
+            "Image_path":"../images/Default_Jake.jpg", "Title":"Title", "Date":"Date 2026", 
+            "Bio":"This project is a project and I built this project, woooo so much fun."
+        }
+    ]
+}
