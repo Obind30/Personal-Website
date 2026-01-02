@@ -57,8 +57,9 @@ def styalize(inFilepath, outFilepath):
 
 
 def main():
-    for i in range(19):
-        styalize(f"src\images\Hand_Palm_Open\Frame{i}.jpg", f"src\images\Hand_Palm_Open_Style\Frame{i}.jpg")
+    styalize(f"src/images/Unused/Hand_Point.jpg", f"src/images/Hand_Point_Left.jpg")
+    #for i in range(19):
+    #    styalize(f"src\images\Hand_Palm_Open\Frame{i}.jpg", f"src\images\Hand_Palm_Open_Style\Frame{i}.jpg")
 
 if __name__ == "__main__":
     sys.exit(main())
