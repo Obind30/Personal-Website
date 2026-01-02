@@ -50,6 +50,51 @@
                     margin: -20px;
                 }
 
+#summ_container {
+    display: flex;
+}
+
+    .square_img_cont {
+        width: 136px;
+        overflow: hidden; 
+    }
+
+        .square_img {
+            height: 136px;
+
+        }
+
+        .fade_img {
+            opacity: 0;
+            transition: opacity .2s ease-in-out;
+        }
+
+        .fade_img.visible {
+            opacity: 1;
+        }
+
+    #point_left {
+        margin-right: 10px;
+    }
+
+    #summ_body {
+        display: inline-flex;
+    }
+
+        #proj_text {
+            width:75%;
+            padding-left: 5%;
+        }
+
+            #proj_bio {
+                font-size: 16px;
+                text-align: justify;
+            }
+
+    #point_right {
+        margin-left: 10px;
+    }
+
 .pixImg {
     /* Prevent anti-alaising for intentionally pixelated images */
     image-rendering: optimizeSpeed;             /* STOP SMOOTHING, GIVE ME SPEED  */

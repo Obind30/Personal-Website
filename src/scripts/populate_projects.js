@@ -12,28 +12,28 @@ fetch('../json/projects.json')
     while (data.projects[i]) {
         list_container.innerHTML +=
         `
-            <a href="../pages/projects/`+data.projects[i].Title+`.html">
-                <div style="display: flex">
+            <a class="blank_link" href="../pages/projects/`+data.projects[i].Title+`.html">
+                <div id="summ_container">
                    
-                    <div style="width: 136px; overflow: hidden; margin-right: 10px;">
-                        <img style="height: 136px" src="../images/Default_Jake.jpg">
+                    <div id="point_left" class="pointer pix_img square_img_cont">
+                        <img class="square_img fade_img" src="../images/Default_Jake.jpg">
                     </div>
 
-                    <div style="display: inline-flex;">
-                        <div style="width: 136px; overflow: hidden;">
-                            <img style="height: 136px" src="`+data.projects[i].Image_path+`">
+                    <div id="summ_body">
+                        <div class="square_img_cont">
+                            <img class="square_img" src="`+data.projects[i].Image_path+`">
                         </div>
-                        <div style="width: 75%; padding-left: 5%">
+                        <div id="proj_text">
                             <div>
                                 <span class="text pix_text title">`+data.projects[i].Title+`, </span>
                                 <span class="text pix_text title">`+data.projects[i].Date+`</span>
                             </div>
-                            <p class="text pix_text" style="font-size: 16px; text-align: justify;">`+data.projects[i].Bio+`</p>
+                            <p id="proj_bio" class="text pix_text">`+data.projects[i].Bio+`</p>
                         </div>
                     </div>
 
-                    <div style="width: 136px; overflow: hidden; margin-left: 10px;">
-                        <img style="height: 136px" src="../images/Default_Jake.jpg">
+                    <div id="point_right" class="pointer pix_img square_img_cont">
+                        <img class="square_img fade_img" src="../images/Default_Jake.jpg">
                     </div>
 
                 </div>
