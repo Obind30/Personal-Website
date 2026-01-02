@@ -50,7 +50,7 @@
                     margin: -20px;
                 }
 
-#summ_container {
+.summ_container {
     display: flex;
 }
 
@@ -66,32 +66,32 @@
 
         .fade_img {
             opacity: 0;
-            transition: opacity .2s ease-in-out;
+            transition: opacity .6s ease-in-out;
         }
 
         .fade_img.visible {
             opacity: 1;
         }
 
-    #point_left {
+    .point_left {
         margin-right: 10px;
     }
 
-    #summ_body {
+    .summ_body {
         display: inline-flex;
     }
 
-        #proj_text {
+        .proj_text {
             width:75%;
             padding-left: 5%;
         }
 
-            #proj_bio {
+            .proj_bio {
                 font-size: 16px;
                 text-align: justify;
             }
 
-    #point_right {
+    .point_right {
         margin-left: 10px;
     }
 
