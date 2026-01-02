@@ -16,7 +16,7 @@ fetch('../json/projects.json')
                 <div class="summ_container">
                    
                     <div class="pointer pix_img square_img_cont point_left">
-                        <img class="square_img fade_img" src="../images/Default_Jake.jpg">
+                        <img class="square_img fade_img" src="../images/Hand_Point_Right.jpg">
                     </div>
 
                     <div class="summ_body">
@@ -33,7 +33,7 @@ fetch('../json/projects.json')
                     </div>
 
                     <div class="pointer pix_img square_img_cont point_right">
-                        <img class="square_img fade_img" src="../images/Default_Jake.jpg">
+                        <img class="square_img fade_img" src="../images/Hand_Point_Left.jpg">
                     </div>
 
                 </div>
