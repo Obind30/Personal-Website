@@ -1,0 +1,36 @@
+{
+    "essays":[
+        {
+            "Image_path":"../images/Default_Jake.jpg", "Title":"Essay 1", "Date":"DATE-DATE",
+            "Bio":"I wrote this essay."
+        },
+        {
+            "Image_path":"../images/Default_Jake.jpg", "Title":"Essay 2", "Date":"DATE-DATE",
+            "Bio":"I wrote this essay."
+        },
+        {
+            "Image_path":"../images/Default_Jake.jpg", "Title":"Essay 3", "Date":"DATE-DATE",
+            "Bio":"I wrote this essay."
+        },
+        {
+            "Image_path":"../images/Default_Jake.jpg", "Title":"Essay 4", "Date":"DATE-DATE",
+            "Bio":"I wrote this essay."
+        },
+        {
+            "Image_path":"../images/Default_Jake.jpg", "Title":"Essay 5", "Date":"DATE-DATE",
+            "Bio":"I wrote this essay."
+        },
+        {
+            "Image_path":"../images/Default_Jake.jpg", "Title":"Essay 6", "Date":"DATE-DATE",
+            "Bio":"I wrote this essay."
+        },
+        {
+            "Image_path":"../images/Default_Jake.jpg", "Title":"Essay 7", "Date":"DATE-DATE",
+            "Bio":"I wrote this essay."
+        },
+        {
+            "Image_path":"../images/Default_Jake.jpg", "Title":"Essay 8", "Date":"DATE-DATE",
+            "Bio":"I wrote this essay."
+        }
+    ]
+}
