@@ -52,10 +52,13 @@
 
 .summ_container {
     display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
     .square_img_cont {
         width: 136px;
+        height: 136px;
         overflow: hidden; 
     }
 
@@ -67,6 +70,7 @@
         .fade_img {
             opacity: 0;
             transition: opacity .4s ease-in-out;
+            transform: translate(0%, 20%);
         }
 
         .fade_img.visible {
@@ -81,16 +85,19 @@
 
     .summ_body {
         display: inline-flex;
+        justify-content: space-between;
+        width: 800px;
+        overflow: hidden;
     }
 
         .proj_text {
-            width:75%;
-            padding-left: 5%;
+            width:80%;
         }
 
             .proj_bio {
                 font-size: 16px;
                 text-align: justify;
+                margin-top: 8px;
             }
 
     .point_right {

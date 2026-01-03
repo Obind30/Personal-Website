@@ -25,10 +25,8 @@ fetch('../json/projects.json')
                             <img class="square_img" src="`+data.projects[i].Image_path+`">
                         </div>
                         <div class="proj_text">
-                            <div>
-                                <span class="text pix_text title">`+data.projects[i].Title+`, </span>
-                                <span class="text pix_text title">`+data.projects[i].Date+`</span>
-                            </div>
+                            <span class="text pix_text title">`+data.projects[i].Title+`, </span>
+                            <span class="text pix_text body_text">`+data.projects[i].Date+`</span>
                             <p class="text pix_text proj_bio">`+data.projects[i].Bio+`</p>
                         </div>
                     </div>
