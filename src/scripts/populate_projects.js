@@ -1,5 +1,4 @@
 const list_container = document.getElementById("project_list")
-console.log("Population from projects.json started");
 fetch('../json/projects.json')
   .then(response => {
     if (!response.ok) {
@@ -41,27 +40,22 @@ fetch('../json/projects.json')
         i++;
     }
     list_container.innerHTML = inner;
-    console.log("Population from projects.json complete");
 
     const hover_elems = document.getElementsByClassName("summ_container")
-    console.log("hover-event population started");
     for(let i=0; i<hover_elems.length; i++) {
         hover_elems[i].onmouseenter = function fade_out () {
-            console.log("fade-in");
             const fade_elems = this.getElementsByClassName("fade_img");
             for(let j=0; j<fade_elems.length; j++) {
                 fade_elems[j].classList.add("visible")
             }
         }
         hover_elems[i].onmouseleave = function fade_in () {
-            console.log("fade-out");
             const fade_elems = this.getElementsByClassName("fade_img");
             for(let j=0; j<fade_elems.length; j++) {
                 fade_elems[j].classList.remove("visible")
             }
         }
     }
-    console.log("hover-event population completed");
 
   })
   .catch(error => {
