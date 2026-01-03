@@ -61,12 +61,12 @@
 
         .square_img {
             height: 136px;
-
+            justify-content: right;
         }
 
         .fade_img {
             opacity: 0;
-            transition: opacity .6s ease-in-out;
+            transition: opacity .4s ease-in-out;
         }
 
         .fade_img.visible {
@@ -75,6 +75,8 @@
 
     .point_left {
         margin-right: 10px;
+        display: flex;
+        justify-content: flex-end;
     }
 
     .summ_body {
@@ -93,6 +95,8 @@
 
     .point_right {
         margin-left: 10px;
+        display: flex;
+        justify-content: flex-start;
     }
 
 .pixImg {
