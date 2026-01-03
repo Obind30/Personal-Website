@@ -1,40 +1,32 @@
 {
     "projects":[
         {
-            "Image_path":"../images/Default_Jake.jpg", "Title":"Title", "Date":"Date 2026",
-            "Bio":"This project is a project and I built this project, woooo so much fun."
+            "Image_path":"../images/Project_Thumbnails/Web_Icon.jpg", "Title":"Personal Site", "Date":"Jan 2026",
+            "Bio":"This website is developed by me! I made this to get started in webdev and show off both my creative and technical skills."
         },
         {
-            "Image_path":"../images/Default_Jake.jpg", "Title":"Title", "Date":"Date 2026",
-            "Bio":"This project is a project and I built this project, woooo so much fun."
+            "Image_path":"../images/Project_Thumbnails/Server_Icon.jpg", "Title":"Home Server", "Date":"Jan 2026",
+            "Bio":"I had an old desktop PC that I didn't want to go to waste. I now have my own remote storage and I personally host this site. "
         },
         {
-            "Image_path":"../images/Default_Jake.jpg", "Title":"Title", "Date":"Date 2026",
-            "Bio":"This project is a project and I built this project, woooo so much fun."
+            "Image_path":"../images/Project_Thumbnails/Terminal_Icon.jpg", "Title":"DMM Emulation", "Date":"Nov-Dec 2025",
+            "Bio":"I solo-developed a script for the DMM6500 to emulate a Keysight 34461A. I pushed Tek's TSP scripting to it's limit, creating custom parsing and execution functions."
         },
         {
-            "Image_path":"../images/Default_Jake.jpg", "Title":"Title", "Date":"Date 2026",
-            "Bio":"This project is a project and I built this project, woooo so much fun."
+            "Image_path":"../images/Project_Thumbnails/Terminal_Icon.jpg", "Title":"TEK Projects", "Date":"Jun-Dec 2025",
+            "Bio":"Over my six months at Tektronix I had multiple significant public projects including a capacitance measuring app and over 20 demonstrations for the MP5000 Series instruments."
         },
         {
-            "Image_path":"../images/Default_Jake.jpg", "Title":"Title", "Date":"Date 2026",
-            "Bio":"This project is a project and I built this project, woooo so much fun."
+            "Image_path":"../images/Project_Thumbnails/Maze_Icon.jpg", "Title":"Auto Maze Robot", "Date":"Jan-May 2025",
+            "Bio":"I served as lead programmer in the creation of a maze-solving robot. I put my algorithm knowlege to work and learned to avoid simulated hazards with magnetic and IR sensors."
         },
         {
-            "Image_path":"../images/Default_Jake.jpg", "Title":"Title", "Date":"Date 2026",
-            "Bio":"This project is a project and I built this project, woooo so much fun."
+            "Image_path":"../images/Project_Thumbnails/Tree_Icon.jpg", "Title":"Advent of Code", "Date":"2022-2025",
+            "Bio":"I love to challenge myself and the annual Advent of Code is perfect. When I need a brain teaser or to use a new language I love to try out one of these problems."
         },
         {
-            "Image_path":"../images/Default_Jake.jpg", "Title":"Title", "Date":"Date 2026",
-            "Bio":"This project is a project and I built this project, woooo so much fun."
-        },
-        {
-            "Image_path":"../images/Default_Jake.jpg", "Title":"Title", "Date":"Date 2026",
-            "Bio":"This project is a project and I built this project, woooo so much fun."
-        },
-        {
-            "Image_path":"../images/Default_Jake.jpg", "Title":"Title", "Date":"Date 2026", 
-            "Bio":"This project is a project and I built this project, woooo so much fun."
+            "Image_path":"../images/Project_Thumbnails/Dog_Icon.jpg", "Title":"Quadrupedal Walker", "Date":"2020-2021",
+            "Bio":"This was one of my first \"real\" projects. I learned to 3D model and print, simple inverse kinematics, and my first programs. While it only took a few steps this sparked my love of engineering."
         }
     ]
 }
