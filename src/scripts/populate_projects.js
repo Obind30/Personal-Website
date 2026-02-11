@@ -12,7 +12,7 @@ fetch('../json/projects.json')
     while (data.projects[i]) {
         inner += 
         `
-            <a class="blank_link" href="../pages/projects/`+data.projects[i].Title+`.html">
+            <a class="blank_link" href="../pages/projects/project_pages/`+data.projects[i].Title+`.html">
                 <div class="summ_container">
                    
                     <div class="pix_img square_img_cont point_left">

@@ -1,0 +1,21 @@
+@font-face {
+  font-family: Pixel_Title;
+  src: url("../fonts/minecart-lcd/Minecart LCD.ttf");
+}
+h1 {
+    color: rgb(218, 218, 218);
+    font-family: Pixel_Title;
+}
+
+h2 {
+    color: rgb(218, 218, 218);
+    font-family: Pixel_Title;
+}
+
+p {
+    color: rgb(218, 218, 218);
+}
+
+.markdown-body {
+    background-color:black
+}
