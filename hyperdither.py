@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
 import sys, os
 import argparse
 from PIL import Image, ImageOps
@@ -8,7 +6,7 @@ import numpy as np
 import numba
 from numba import cuda
 
-# @numba.jit
+# FROM: https://github.com/tgray/hyperdither
 def dither(num, thresh = 127):
     derr = np.zeros(num.shape, dtype=np.int8)
 
@@ -35,25 +33,26 @@ def dither(num, thresh = 127):
                     derr[y + 1, x + 1] += errval / div
     return num[::-1,:] * 255
 
+# Custom to stylize an image as I need
 def styalize(inFilepath, outFilepath):
 
     img = Image.open(inFilepath)
-    img = img.resize((int(img.width/24), int(img.height/24)))
-    img = remove(img).convert('RGB')
+    img = img.resize((int(img.width/24), int(img.height/24)))   # pixelize
+    img = remove(img).convert('RGB')                            # Convert to RGB format
 
-    posterized = ImageOps.posterize(img, bits=3)
+    posterized = ImageOps.posterize(img, bits=3)                # Posterize to 3 bit color channels
 
-    img = img.convert('L')
+    img = img.convert('L')                                      # Now convert the pre-posterized image to greyscale
 
     m = np.array(img)[:,:]
-    m2 = dither(m, thresh = 127)
+    m2 = dither(m, thresh = 127)                                # Dither the greyscale image
     ditherMask = Image.fromarray(m2[::-1,:])
-    ditherMask.convert('1')
+    ditherMask.convert('1')                                     # Convert the dithered image to bit mask
 
-    out = Image.new('RGB', (img.width, img.height))
+    out = Image.new('RGB', (img.width, img.height))             # Create our final image
 
-    out.paste(im=posterized, box=None, mask=ditherMask)
-    out.save(outFilepath, dpi=(72,)*2)    
+    out.paste(im=posterized, box=None, mask=ditherMask)         # Paste the posterized image with the dithered bitmask
+    out.save(outFilepath, dpi=(72,)*2)                          # Save to the specified filepath
 
 
 def main():
