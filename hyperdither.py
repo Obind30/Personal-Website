@@ -37,7 +37,7 @@ def dither(num, thresh = 127):
 def styalize(inFilepath, outFilepath):
 
     img = Image.open(inFilepath)
-    img = img.resize((int(img.width/24), int(img.height/24)))   # pixelize
+    img = img.resize((int(img.width/24), int(img.height/24)))   # Pixelize
     img = remove(img).convert('RGB')                            # Convert to RGB format
 
     posterized = ImageOps.posterize(img, bits=3)                # Posterize to 3 bit color channels
