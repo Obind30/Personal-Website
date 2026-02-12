@@ -1,15 +1,21 @@
+// Store the list container element
 const list_container = document.getElementById("project_list")
+// Import the json file
 fetch('../json/projects.json')
-  .then(response => {
+    // Check for fetch error
+    .then(response => {
     if (!response.ok) {
-      throw new Error('Network response was not ok ' + response.statusText);
+        throw new Error('Network response was not ok ' + response.statusText);
     }
     return response.json();
-  })
+    })
   .then(data => {
+    // Create an empty string to append HTML of project list
     let inner = '';
     let i=0;
+    // Iterate through the projects list from the json file
     while (data.projects[i]) {
+        // Append an HTML block to our string with desired elements from json file
         inner += 
         `
             <a class="blank_link" href="../pages/projects/project_pages/`+data.projects[i].Title+`.html">
@@ -39,8 +45,10 @@ fetch('../json/projects.json')
         `;
         i++;
     }
+    // Inject our string of HTML elements into our page
     list_container.innerHTML = inner;
 
+    // Define animation functions to fade in/out pointer images on hover
     const hover_elems = document.getElementsByClassName("summ_container")
     for(let i=0; i<hover_elems.length; i++) {
         hover_elems[i].onmouseenter = function fade_out () {
@@ -58,7 +66,7 @@ fetch('../json/projects.json')
     }
 
   })
+  // Catch fetch errors
   .catch(error => {
     console.error('There has been a problem with your fetch operation:', error);
   });
-
