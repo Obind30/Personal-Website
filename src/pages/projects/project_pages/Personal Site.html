@@ -11,17 +11,43 @@
     </head>
 
     <body style="background-color:black;">
-        <div class="sticky" style="height: 125px; background-image: radial-gradient(ellipse farthest-corner at 50% 100%, rgba(0, 0, 0, 0),
-            rgba(0, 0, 0, 1))">
-            <h1 class="text pix_text sticky" style="text-align: center; font-size: 64px;">Personal Site</h1>
+
+        <h1 class="text pix_text" style="text-align: center; font-size: 64px;">Personal Site</h1>
+
+        <div id="page_content" style="display: flex">
+            <div style="height: 25vh; width: 25%; float: left; position: sticky; top: 5%;">
+                <ul>
+                    <li>
+                        <a href="#background">Background</a>
+                    </li>
+                    <li>
+                        <a href="#project-features">Project Features</a>
+                        <ul>
+                            <li>
+                                <a href="#fast-page-creation">Fast Page Creation</a>
+                            </li>
+                            <li>
+                                <a href="#programmatic-videoimage-editing">Programmatic Video/Image Editing</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#lessons-learned">Lessons Learned</a>
+                    </li>
+                    <li>
+                        <a href="#a-statement-on-the-use-of-generative-ai">AI Use Statement</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div id="project_content" style="scroll-behavior: smooth; max-width: 50%; margin-left: 0; margin-right: auto; margin-bottom: 10%; float: left">            
+                <zero-md src="../project_documents/Personal Site.md" style="background-color:black">
+                    <template data-append>
+                        <link rel="stylesheet" href="../../../styles/md_style.css">
+                    </template>
+                </zero-md>
+            </div>
         </div>
-        
-        <div id="project_content" style="max-width: 50%; margin-left: auto; margin-right: auto; margin-bottom: 10%;">            
-            <zero-md src="../project_documents/Personal Site.md" style="background-color:black">
-                <template data-append>
-                    <link rel="stylesheet" href="../../../styles/md_style.css">
-                </template>
-            </zero-md>
-        </div>
+
     </body>
 </html>

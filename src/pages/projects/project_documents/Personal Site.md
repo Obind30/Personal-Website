@@ -102,8 +102,8 @@ Now you know the dirty secret of this page, its really just a markdown file.
 
 ## Programmatic Video/Image Editing
 
-The [homepage](../../../../index.html) of my site was where everything began. I was drawing hands when I came across this idea for a site homepage:
-![](A Doodle of a hand opening)
+The [homepage](../../../../index.html) of my site was where everything began. I was sketching when I thought up this idea for a site homepage:
+![A Doodle of a hand opening](../../../images/Project_Images/Personal_Site//Original_Hand_Sketch.jpg)
 
 I wanted:
 - The hand to open as the user scrolled down the page
