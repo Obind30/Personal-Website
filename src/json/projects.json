@@ -13,12 +13,12 @@
             "Bio":"I solo-developed a script for the DMM6500 to emulate a Keysight 34461A. I pushed Tek's TSP scripting to it's limit, creating custom parsing and execution functions."
         },
         {
-            "Image_path":"../images/Project_Thumbnails/Terminal_Icon.jpg", "Title":"TEK Projects", "Date":"Jun-Dec 2025",
+            "Image_path":"../images/Project_Thumbnails/Terminal_Icon.jpg", "Title":"Tek Projects", "Date":"Jun-Dec 2025",
             "Bio":"Over my six months at Tektronix I had multiple significant public projects including a capacitance measuring app and over 20 demonstrations for the MP5000 Series instruments."
         },
         {
             "Image_path":"../images/Project_Thumbnails/Maze_Icon.jpg", "Title":"Auto Maze Robot", "Date":"Jan-May 2025",
-            "Bio":"I served as lead programmer in the creation of a maze-solving robot. I put my algorithm knowlege to work and learned to avoid simulated hazards with magnetic and IR sensors."
+            "Bio":"I served as lead programmer in the creation of a maze-solving robot. I put my algorithm knowledge to work and learned to avoid simulated hazards with magnetic and IR sensors."
         },
         {
             "Image_path":"../images/Project_Thumbnails/Tree_Icon.jpg", "Title":"Advent of Code", "Date":"2022-2025",
