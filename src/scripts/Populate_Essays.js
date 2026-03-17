@@ -12,11 +12,40 @@ async function readJSON() {
         let i=0;
         // Iterate through the essays list from the json file
         while (data.essays[i]) {
-            // Append an HTML block to our string with desired elements from json file
-            inner += 
-            `
-                <a class="blank_link" href="../pages/essays/essay_pages/`+data.essays[i].Title+`.html">
-                    <div class="summ_container">
+            if (data.essays[i].Active == true) {
+                // Append an HTML block to our string with desired elements from json file
+                inner += 
+                `
+                    <a class="blank_link" href="../pages/essays/essay_pages/`+data.essays[i].Title+`.html">
+                        <div class="summ_container">
+                        
+                            <div class="pix_img square_img_cont point_left">
+                                <img class="square_img fade_img" src="../images/Hand_Point_Right.jpg">
+                            </div>
+
+                            <div class="summ_body">
+                                <div class="square_img_cont">
+                                    <img class="square_img" src="`+data.essays[i].Image_path+`">
+                                </div>
+                                <div class="proj_text">
+                                    <span class="text pix_text title">`+data.essays[i].Title+`, </span>
+                                    <span class="text pix_text body_text">`+data.essays[i].Date+`</span>
+                                    <p class="text pix_text proj_bio">`+data.essays[i].Bio+`</p>
+                                </div>
+                            </div>
+
+                            <div class="pix_img square_img_cont point_right">
+                                <img class="square_img fade_img" src="../images/Hand_Point_Left.jpg">
+                            </div>
+
+                        </div>
+                    </a>
+                `;
+            } else {
+                // Append an HTML block to our string with desired elements from json file
+                inner += 
+                `
+                    <div class="inactive_summ_container">
                     
                         <div class="pix_img square_img_cont point_left">
                             <img class="square_img fade_img" src="../images/Hand_Point_Right.jpg">
@@ -24,12 +53,12 @@ async function readJSON() {
 
                         <div class="summ_body">
                             <div class="square_img_cont">
-                                <img class="square_img" src="`+data.essays[i].Image_path+`">
+                                <img class="square_img"  style="opacity:0.5" src="`+data.essays[i].Image_path+`">
                             </div>
                             <div class="proj_text">
-                                <span class="text pix_text title">`+data.essays[i].Title+`, </span>
-                                <span class="text pix_text body_text">`+data.essays[i].Date+`</span>
-                                <p class="text pix_text proj_bio">`+data.essays[i].Bio+`</p>
+                                <span class="text pix_text title" style="opacity:0.5"> `+data.essays[i].Title+`, </span>
+                                <span class="text pix_text body_text" style="opacity:0.5">`+data.essays[i].Date+`</span>
+                                <p class="text pix_text proj_bio" style="opacity:0.5">`+data.essays[i].Bio+`</p>
                             </div>
                         </div>
 
@@ -38,8 +67,8 @@ async function readJSON() {
                         </div>
 
                     </div>
-                </a>
-            `;
+                `;
+            }
             i++;
         }
         // Inject our string of HTML elements into our page
