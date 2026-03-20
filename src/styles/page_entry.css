@@ -1,0 +1,33 @@
+@font-face {
+  font-family: Pixel_Title;
+  src: url("../fonts/minecart-lcd/Minecart LCD.ttf");
+}
+
+a {
+    color: rgb(218, 218, 218);
+    text-decoration: none;
+}
+
+#page_title {
+    color: rgb(218, 218, 218);
+    font-family: Pixel_Title;
+    font-size: 64px;
+    text-align: center;
+}
+
+#project_content {
+    max-width: 50%;
+    margin-left: 0;
+    margin-right: auto;
+    margin-bottom: 10%;
+    float: left;
+    background-color: black;
+}
+
+#nav_box {
+    height: 100%;
+    width: 25%;
+    float: left;
+    position: sticky;
+    top: 5%;
+}
