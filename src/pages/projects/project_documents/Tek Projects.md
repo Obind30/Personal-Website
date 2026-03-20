@@ -1,19 +1,3 @@
-# Table of Contents
-
-- [Background](#background)
-- [Projecs](#projects)
-    - [SMU 2461 Capacitance Measurement App](#smu-2461-capacitance-measurement-app)
-    - [MP5000 Series Demo Library](#mp5000-series-demo-library)
-    - [Applications University 2025 Lessons](#applications-university-2025-lessons)
-    - [Battery Cycling Script](#battery-cycling-script)
-    - [Battery Simulation Script](#battery-simulation-script)
-        - [Interactive Test GUI](#interactive-test-gui)
-        - [GUI Parallelization](#gui-parallelization)
-        - [Trigger Model Parallelization](#trigger-model-parallelization)
-        - [Custom Battery Data](#custom-battery-data)
-- [Lessons Learned](#lessons-learned)
-- [AI Use Statement](#a-statement-on-the-use-of-generative-ai)
-
 # Background
 
 I worked as an applications engineering co-op at Tektronix for six months. In my time there I was often given a dedicated project to make a sale or demonstrate different applications for our instruments. These projects gave me the perfect chance to fully understand what industry tasks may look like. I loved dedicating my time to learning new applications and how to achieve them.

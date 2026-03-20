@@ -3,30 +3,53 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Tektronix Projects</title>
+        <title>Tek Projects</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="../../../styles/style.css">
+        <link rel="stylesheet" href="../../../styles/page_entry.css">
         <script type="module" src="https://cdn.jsdelivr.net/npm/zero-md@3?register"></script>
+        <script src="../../../scripts/Scroll_To.js"></script>
     </head>
 
     <body style="background-color:black;">
 
-        <h1 class="text pix_text" style="text-align: center; font-size: 64px;">Tektronix Projects</h1>
+        <h1 id="page_title">Tek Projects</h1>
 
-        <div id="page_content" style="display: flex"> 
-            <div style="height: 25vh; width: 25%; float: left; position: sticky; top: 5%;">
-    
-            </div>
+        <div id="page_content" style="display: flex">
+            <nav id="nav_box">
+                <h4 id="toc_title">Table of Contents</h4>
+                <ul style="margin-top: 0px">
+                    <li><a href="#background" onclick="scroll_click('background')">Background</a></li>
+                    <li>
+                        <a href="#projects" onclick="scroll_click('projects')">Projects</a>
+                        <ul>
+                            <li><a href="#smu-2461-capacitance-measurement-app" onclick="scroll_click('smu-2461-capacitance-measurement-app')">Capacitance Measurement App</a></li>
+                            <li><a href="#mp5000-series-demo-library" onclick="scroll_click('mp5000-series-demo-library')">MP5000 Series Demo Library</a></li>
+                            <li><a href="#applications-university-2025-lessons" onclick="scroll_click('applications-university-2025-lessons')">Apps U 2025 Lessons</a></li>
+                            <li><a href="#battery-cycling-script" onclick="scroll_click('battery-cycling-script')">Battery Cycling</a></li>
+                            <li>
+                                <a href="#battery-simulation-script" onclick="scroll_click('battery-simulation-script')">Battery Simulation</a>
+                                <ul>
+                                    <li><a href="#interactive-test-gui" onclick="scroll_click('interactive-test-gui')">Interactive Test GUI</a></li>
+                                    <li><a href="#gui-parallelization" onclick="scroll_click('gui-parallelization')">GUI Parallelization</a></li>
+                                    <li><a href="#trigger-model-parallelization" onclick="scroll_click('trigger-model-parallelization')">Trigger Model Parallelization</a></li>
+                                    <li><a href="#custom-battery-data" onclick="scroll_click('custom-battery-data')">Custom Battery Data</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#lessons-learned" onclick="scroll_click('lessons-learned')">Lessons Learned</a></li>
+                    <li><a href="#a-statement-on-the-use-of-generative-ai" onclick="scroll_click('a-statement-on-the-use-of-generative-ai')">AI Use Statement</a></li>
+                </ul>
+            </nav>
             
-            <div id="project_content" style="scroll-behavior: smooth; max-width: 50%; margin-left: 0; margin-right: auto; margin-bottom: 10%; float: left">            
-                <zero-md src="../project_documents/Tek Projects.md" style="background-color:black">
+            <div id="project_content">            
+                <zero-md src="../project_documents/Tek Projects.md">
                     <template data-append>
                         <link rel="stylesheet" href="../../../styles/md_style.css">
                     </template>
                 </zero-md>
             </div>
         </div>
-
     </body>
 </html>
