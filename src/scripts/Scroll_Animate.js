@@ -68,6 +68,13 @@ function hand_animate() {
         ".jpg";
     document.getElementById("handImg").src = path;
 
+    const scroll_notif = document.getElementById("scroll_text")
+    if (frame>3) {
+        scroll_notif.style.opacity = 1-(frame-3)/(18-12);
+    } else {
+        scroll_notif.style.opacity = 1;
+    };
+
     const door_links = document.getElementById("door_links");
     const link1 = document.getElementById("link1");
     const link3 = document.getElementById("link3");
