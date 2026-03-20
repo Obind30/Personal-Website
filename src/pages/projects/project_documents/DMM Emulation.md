@@ -1,3 +1,16 @@
+# Table of Contents
+
+- [Background](#background)
+- [Project Features](#project-features)
+    - [Feature and Progress Tracking](#feature-and-progress-tracking)
+    - [Documentation](#documentation)
+    - [Device State Storage](#device-state-storage)
+    - [Tree Based Parsing](#tree-based-parsing)
+    - [Trigger Model Emulation](#trigger-model-emulation)
+- [Room For Improvement](#room-for-improvement)
+- [Lessons Learned](#lessons-learned)
+- [AI Use Statement](#a-statement-on-the-use-of-generative-ai)
+
 # Background
 
 During my time at Tektronix, I worked on multiple projects intended to meet customer demands for sales. These were often purpose built software tools to make the customer's desired test simpler. The largest of these projects was a script to emulate a Keysight 34461A on a Keithly DMM6500. This would allow a customer to fully migrate their system from Keysight to Keithly. I had just shy of two months to release a minimum viable product before I would have to hand the project to a new co-op who would have to be onboarded before they could effectively contribute. This script had to be functional and easily understandable for new employees to support it and for the customer to use it. This project challenged my organizational and communication skills.
