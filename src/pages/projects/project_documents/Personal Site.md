@@ -1,12 +1,3 @@
-# Table of Contents
-
-- [Background](#background)
-- [Project Features](#project-features)
-    - [Fast Page Creation](#fast-page-creation)
-    - [Programmatic Video/Image Editing](#programmatic-videoimage-editing)
-- [Lessons Learned](#lessons-learned)
-- [AI Use Statement](#a-statement-on-the-use-of-generative-ai)
-
 # Background
 
 I started work on this website to host my work both for myself and interested parties. This is my first web development project and first time using HTML, CSS, and JS so I have much to learn. I started this work during my winter break, with ample free time, scope creep was quick to bite me. When school started back up, development slowed and I had to learn to develop a minimum viable product that I could enhance over time. I intend for this site to be a record of my work and a representation of my growth.
