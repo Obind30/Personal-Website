@@ -1,6 +1,11 @@
 {
     "projects":[
         {
+            "Image_path":"src/images/Project_Thumbnails/Web_Icon.jpg", "Title":"Car Efficiency Logger", "Date":"Jun 2026",
+            "Bio":"In order to to track the most ideal conditions for my car's fuel efficiency, I built a device with a microcontroller to periodically request information from the car's computer, and log the results.",
+            "Active": false
+        },
+        {
             "Image_path":"src/images/Project_Thumbnails/Web_Icon.jpg", "Title":"Personal Site", "Date":"Jan 2026",
             "Bio":"This website is developed by me! I made this to get started in webdev and show off both my creative and technical skills.",
             "Active": true
