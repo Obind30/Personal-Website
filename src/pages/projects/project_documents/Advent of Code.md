@@ -56,6 +56,6 @@ With the power of hindsight I would have removed the need for the temporary queu
 
 While many of my solutions were slow, naive, and by all metrics, bad, by struggling with these problems I learned more than I ever had. Over the month I built up a good sense for the inner workings of these problems. I began learning about simple and not so simple algorithms from the Advent of Code community. I still use the skills I built up through this first year and I hold this experience close.
 
-# Looking Foward
+# Looking Forward
 
 I still pick up these challenges from time to time. I have completed 172 challenge problems and had so much fun doing it. I love to use these as an opportunity to learn new programming languages like C, C++, Rust, and more.
