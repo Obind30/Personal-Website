@@ -33,7 +33,7 @@
         {
             "Image_path":"src/images/Project_Thumbnails/Tree_Icon.jpg", "Title":"Advent of Code", "Date":"2022-2025",
             "Bio":"I love to challenge myself and the annual Advent of Code is perfect. When I need a brain teaser or to use a new language I love to try out one of these problems.",
-            "Active": false
+            "Active": true
         },
         {
             "Image_path":"src/images/Project_Thumbnails/Dog_Icon.jpg", "Title":"Quadrupedal Walker", "Date":"2020-2021",
