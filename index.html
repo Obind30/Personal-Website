@@ -10,43 +10,15 @@
         <link rel="stylesheet" href="src/styles/style.css">
     </head>
 
-    <body style="height:5000px; background-color:black;">        
-        <div id="hand_animation">
-
-            <div style="position: relative; text-align: center; color: white;">
-                <img src="src/images/Hand_Palm_Open_Style/Frame1.jpg" class="pixImg" id="handImg" height="1200">
-                <div id="scroll_text" class="text pix_text" style="font-size: 64px; position: absolute; top: 7.5%; left: 50%; 
-                transform: translate(-50%, -50%); 
-                ">Scroll</div>
-            </div>
-
-            <div id="door_links">
-                
-                <a class="blank_link" href="src\pages\essays.html">
-                    <div class="door_link" id="link1" >
-                        <h1 class="text pix_text link_title">ESSAYS</h1>
-                        <img src="src/images/Door_Link_Animated/Door_Link_1.png" class="pixImg" id="door1" height="250">
-                    </div>
-                </a>
-
-                <a class="blank_link" href="src\pages\projects.html">
-                    <div class="text pix_text door_link" id="link2" style="transform: translate(-40%, 0);">
-                        <h1 class="link_title">PROJECTS</h1>
-                        <img src="src/images/Door_Link_Animated/Door_Link_1.png" class="pixImg" id="door2" height="250">
-                    </div>
-                </a>
-
-                <a class="blank_link" href="src\pages\about.html">
-                    <div class="text pix_text door_link" id="link3">
-                        <h1 class="link_title">ABOUT ME</h1>
-                        <img src="src/images/Door_Link_Animated/Door_Link_1.png" class="pixImg" id="door3" height="250">
-                    </div>
-                </a>
-
-            </div>
-
+    <body style="background-color:black;">
+        <div class="sticky" style="height: 125px; background-image: radial-gradient(ellipse farthest-corner at 50% 100%, rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 1))">
+            <h1 class="text pix_text" style="text-align: center; font-size: 64px; margin-top: 0px">Project List</h1>
         </div>
-        <script src="./src/scripts/Scroll_Animate.js"></script>
 
+        <div id="project_list" style="max-width: fit-content; margin-left: auto; margin-right: auto;">
+            <script src="src/scripts/populate_projects.js"></script>
+        </div>
+        
     </body>
 </html>

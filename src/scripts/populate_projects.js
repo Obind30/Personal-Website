@@ -1,6 +1,6 @@
 async function readJSON() {
     try {
-        const response = await fetch('../json/projects.json');
+        const response = await fetch('src/json/projects.json');
         if (!response.ok) throw new Error('File not found');
         const data = await response.json(); // Parse JSON directly
 
@@ -16,11 +16,11 @@ async function readJSON() {
                 // Append an HTML block to our string with desired elements from json file
                 inner += 
                 `
-                    <a class="blank_link" href="../pages/projects/project_pages/`+data.projects[i].Title+`.html">
+                    <a class="blank_link" href="src/pages/projects/project_pages/`+data.projects[i].Title+`.html">
                         <div class="summ_container">
                         
                             <div class="pix_img square_img_cont point_left">
-                                <img class="square_img fade_img" src="../images/Hand_Point_Right.jpg">
+                                <img class="square_img fade_img" src="src/images/Hand_Point_Right.jpg">
                             </div>
 
                             <div class="summ_body">
@@ -35,7 +35,7 @@ async function readJSON() {
                             </div>
 
                             <div class="pix_img square_img_cont point_right">
-                                <img class="square_img fade_img" src="../images/Hand_Point_Left.jpg">
+                                <img class="square_img fade_img" src="src/images/Hand_Point_Left.jpg">
                             </div>
 
                         </div>
@@ -48,7 +48,7 @@ async function readJSON() {
                     <div class="inactive_summ_container">
                     
                         <div class="pix_img square_img_cont point_left">
-                            <img class="square_img fade_img" src="../images/Hand_Point_Right.jpg">
+                            <img class="square_img fade_img" src="src/images/Hand_Point_Right.jpg">
                         </div>
 
                         <div class="summ_body">
@@ -63,7 +63,7 @@ async function readJSON() {
                         </div>
 
                         <div class="pix_img square_img_cont point_right">
-                            <img class="square_img fade_img" src="../images/Hand_Point_Left.jpg">
+                            <img class="square_img fade_img" src="src/images/Hand_Point_Left.jpg">
                         </div>
 
                     </div>
