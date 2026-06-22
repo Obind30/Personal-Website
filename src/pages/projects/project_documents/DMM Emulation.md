@@ -10,7 +10,7 @@ One of the most important features of this project is not technical, rather the 
 
 In the spreadsheet, I recorded every command in the 3446X family and assigned each a development status. Whenever I chose not to support or partially support a command I left a detailed justification in the spreadsheet to prevent me or others from rediscovering the lessons I had previously learned.
 
-![Spreadsheet Section](../../../images/Project_Images/DMM_Emulation/Spreadsheet.png)
+![Spreadsheet Section](../../../images/Project_Images/DMM Emulation/Spreadsheet.png)
 
 As well as being a development tool, this spreadsheet serves as a key piece of documentation. Any intended deviations from the 34461A operation is recorded in the sheet
 
