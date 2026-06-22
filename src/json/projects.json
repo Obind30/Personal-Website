@@ -38,7 +38,7 @@
         {
             "Image_path":"src/images/Project_Thumbnails/Dog_Icon.jpg", "Title":"Quadrupedal Walker", "Date":"2020-2021",
             "Bio":"This was one of my first \"real\" projects. I learned to 3D model and print, simple inverse kinematics, and my first programs. While it only took a few steps this sparked my love of engineering.",
-            "Active": false
+            "Active": true
         }
     ]
 }
