@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Automatic Maze Robot</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../../../styles/page_entry.css">
+        <script type="module" src="https://cdn.jsdelivr.net/npm/zero-md@3?register"></script>
+        <script src="../../../scripts/Scroll_To.js"></script>
+    </head>
+
+    <body style="background-color:black;">
+
+        <h1 id="page_title">Automatic Maze Robot</h1>
+
+        <div id="page_content" style="display: flex">
+            <nav id="nav_box">
+                <a href="../../../../index.html"><h4 id="return_button">&lt Return to Project List</h4></a>
+                <h4 id="toc_title">Table of Contents</h4>
+                <ul style="margin-top: 0px">
+                    <li><a href="#background" onclick="scroll_click('background')">Background</a></li>
+                    <li>
+                        <a href="#project-features" onclick="scroll_click('project-features')">Project Features</a>
+                        <ul>
+                            <li><a href="#navigation-algorithm" onclick="scroll_click('navigation-algorithm')">Navigation Algorithm</a></li>
+                            <li><a href="#hazard-avoidance" onclick="scroll_click('hazard-avoidance')">Hazard Avoidance</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#possible-improvements" onclick="scroll_click('possible-improvements')">Possible Improvements</a></li>
+                    <li><a href="#lessons-learned" onclick="scroll_click('lessons-learned')">Lessons Learned</a></li>
+                    <li><a href="#a-statement-on-the-use-of-generative-ai" onclick="scroll_click('a-statement-on-the-use-of-generative-ai')">AI Use Statement</a></li>
+                </ul>
+            </nav>
+            
+            <div id="project_content">            
+                <zero-md src="../project_documents/Auto Maze Robot.md">
+                    <template data-append>
+                        <link rel="stylesheet" href="../../../styles/md_style.css">
+                    </template>
+                </zero-md>
+            </div>
+        </div>
+    </body>
+</html>

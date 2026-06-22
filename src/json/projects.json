@@ -28,7 +28,7 @@
         {
             "Image_path":"src/images/Project_Thumbnails/Maze_Icon.jpg", "Title":"Auto Maze Robot", "Date":"Jan-May 2025",
             "Bio":"I served as lead programmer in the creation of a maze-solving robot. I put my algorithm knowledge to work and learned to avoid simulated hazards with magnetic and IR sensors.",
-            "Active": false
+            "Active": true
         },
         {
             "Image_path":"src/images/Project_Thumbnails/Tree_Icon.jpg", "Title":"Advent of Code", "Date":"2022-2025",
