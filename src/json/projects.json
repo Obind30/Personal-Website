@@ -13,7 +13,7 @@
         {
             "Image_path":"src/images/Project_Thumbnails/Server_Icon.jpg", "Title":"Home Server", "Date":"Jan 2026",
             "Bio":"I had an old desktop PC that I didn't want to go to waste. I now have my own remote storage and I personally host this site. ",
-            "Active": false
+            "Active": true
         },
         {
             "Image_path":"src/images/Project_Thumbnails/Terminal_Icon.jpg", "Title":"DMM Emulation", "Date":"Nov-Dec 2025",
