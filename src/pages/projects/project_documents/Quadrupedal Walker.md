@@ -6,8 +6,8 @@ I've been tinkering for many years now, the longer I worked with electronics the
 
 One of the first robots was a "tank style" driving system that I made at the end of my eigth grade year. I built a wooden frame and 3D printed treads and cogs to make drivetrain. The system was driven by two cheap drills, and the L298N H-bridge motor driver, all controlled by an Arduino. This robot never reached any level of complex control and the treads were not calibrated at all, but it inspired me to keep going.
 
-![Speaker Robot](../../../images/Project_Images/Quadrupedal%20Walker/Speakerbot_Front.jpg)
-![Speaker Robot](../../../images/Project_Images/Quadrupedal%20Walker/Speakerbot_Open.jpg)
+![Speaker Robot Front](../../../images/Project_Images/Quadrupedal%20Walker/Speakerbot_Front.jpg)
+![Speaker Robot Open](../../../images/Project_Images/Quadrupedal%20Walker/Speakerbot_Open.jpg)
 
 Similarly, I built a bluetooth speaker driving robot early in my Freshman year of highschool. This one was built much the same but with speakers in the front, driven by a bluetooth speaker amplifier board. I would continue to play with speakers after this project.
 
@@ -135,6 +135,7 @@ FindABC(bool endCntrl, int stepLength, int stepDepth, int stepHeight, int restHe
     }
 }
 ```
+
 # Conclusion
 
 This project spanned over two years with countless iterations. I never got the robot to take more than a few shaky steps, but those steps felt better than anything else I'd experienced. These robotics projects inspired a love for engineering that I could not have found anywhere else. I saw my skills grow and looking back, I've come so far. I know my kid self would be very proud of where I am now.
