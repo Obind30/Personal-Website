@@ -59,3 +59,7 @@ While many of my solutions were slow, naive, and by all metrics, bad, by struggl
 # Looking Forward
 
 I still pick up these challenges from time to time. I have completed 172 challenge problems and had so much fun doing it. I love to use these as an opportunity to learn new programming languages like C, C++, Rust, and more.
+
+# A Statement on the use of Generative AI
+
+This project was made without the use of generative artificial intelligence. I use projects like this to learn; using AI would shortcut this learning process and reduce my actual understanding of my projects. In my experience, lessons learned "the hard way" with head scratching and frustration, are the lessons that are the most pivotal in my development. On top of this, AI is harmful to our environment, data centers are damaging the communities around them, and many models are unethically trained. For these reasons, I chose not to use generative AI in this project.

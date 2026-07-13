@@ -139,3 +139,7 @@ FindABC(bool endCntrl, int stepLength, int stepDepth, int stepHeight, int restHe
 # Conclusion
 
 This project spanned over two years with countless iterations. I never got the robot to take more than a few shaky steps, but those steps felt better than anything else I'd experienced. These robotics projects inspired a love for engineering that I could not have found anywhere else. I saw my skills grow and looking back, I've come so far. I know my kid self would be very proud of where I am now.
+
+# A Statement on the use of Generative AI
+
+This project was made without the use of generative artificial intelligence. I use projects like this to learn; using AI would shortcut this learning process and reduce my actual understanding of my projects. In my experience, lessons learned "the hard way" with head scratching and frustration, are the lessons that are the most pivotal in my development. On top of this, AI is harmful to our environment, data centers are damaging the communities around them, and many models are unethically trained. For these reasons, I chose not to use generative AI in this project.

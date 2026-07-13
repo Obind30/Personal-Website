@@ -11,3 +11,7 @@ Over the years, tech companies have worked hard to remove ownership from the end
 # What I've Learned
 
 The biggest lesson I've taken away from the this project is that there is almost always open source options for the software we rely on every day. Returning power to the user is possible and important. I have also learned some basic PC building, IT, and networking skills.
+
+# A Statement on the use of Generative AI
+
+This project was made without the use of generative artificial intelligence. I use projects like this to learn; using AI would shortcut this learning process and reduce my actual understanding of my projects. In my experience, lessons learned "the hard way" with head scratching and frustration, are the lessons that are the most pivotal in my development. On top of this, AI is harmful to our environment, data centers are damaging the communities around them, and many models are unethically trained. For these reasons, I chose not to use generative AI in this project.
